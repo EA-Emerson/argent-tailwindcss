@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @font-face {
+    font-family: 'Nunito';
+    src: url('static/');
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+    @apply flex justify-between px-2 py-2 overflow-hidden fixed h-[7vh] bg-white w-full
+    lg:px-6 lg:py-2 lg:border-b-2
+}
+.border-bottom {
+    @apply border-b-2
+}
+.border-bottom-white {
+    @apply border-b-2 border-white
+}
+.nav-link {
+    @apply font-bold mx-1 px-2
+}
+.smallLink {
+    @apply font-bold text-4xl py-7 border-b-2 mx-10
+}
+.part1{
+   @apply grid text-center mb-20
+   lg:grid-cols-2 lg:pt-28 
+}
+.appstore1{
+    @apply w-36 
+    lg:w-48 lg:pr-0 lg:pl-0
+}
+
+.phone1 {
+    @apply m-auto w-8/12 
+    lg:w-7/12 lg:ml-28
+}
+.stop-scrolling {
+    @apply h-full overflow-hidden
+}
+
+.text {
+    @apply 
+    lg:text-start
+}
+.part2 {
+    @apply bg-black text-white text-center py-20 grid font-semibold
+}
+.img2{
+    @apply w-36 mb-4 
+    lg:w-52 lg:m-auto lg:mb-8
+}
+.col-2 {
+    @apply w-8/12 m-auto mt-16 
+    lg:w-10/12
+}
+.flexpart{
+    @apply flex-col md:px-32 py-12
+     md:grid-cols-2 md:grid
+}
+.flextext {
+    @apply text-center px-16 
+    md:text-left md:w-[95%]
+}
+.bigtext {
+    @apply text-4xl font-bold my-12
+}
+.smalltext {
+    @apply text-xl font-semibold
+}
+.fleximg {
+    @apply w-[72%] m-auto
+}
+.part5 {
+    @apply bg-black text-white px-8 py-20 
+    lg:pb-12
+}
+.part5boxes {
+    @apply flex-row 
+    lg:flex lg:justify-between
+}
+.box5 {
+    @apply border-2 border-[#363636] rounded-xl p-[27px] flex-row my-16 align-middle justify-center
+    lg:w-[30%] lg:rounded-2xl
+}
+.imgbox5 {
+    @apply flex mt-16 
+}
+.boximg5 {
+    @apply w-16
+}
+.textbox5 {
+    @apply mb-16
+}
+.appstore2 {
+    @apply w-5/12  mx-2 hover:cursor-pointer
+    md:w-[15%] 
+    lg:mx-5
+}
+footer {
+    @apply bg-black text-white py-16 border-b-2 px-6 border-[#363636]
+    md:flex md:justify-between md:pl-20 md:pb-6
+}
+.footerlists {
+    @apply md:flex md:text-right md:float-right
+}
+.greylinks {
+    @apply text-[#777]
+}
+.footLinks {
+    @apply font-semibold
+    md:font-bold md:text-[15px]
+}
+.footerlist {
+    @apply py-[20px]
+    md:px-16
+}
+.footLi {
+    @apply py-[6px]
+    md:py-1
+}
+.part10logo {
+    @apply px-[14px] pt-4
+    md:pt-0 md:px-8
+}
+.profileLinks {
+    @apply text-[#777] bg-black px-12 py-6 font-semibold
+    md:flex md:justify-between md:px-[75px] md:align-middle md:py-8
+}
